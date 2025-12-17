@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agentic AI Course | Lecture Hub</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --bg-dark: #0b0f1a;
+        --card-bg: rgba(255, 255, 255, 0.06);
+        --border-glass: rgba(255, 255, 255, 0.15);
+        --primary: #00e5ff;
+        --secondary: #7c4dff;
+        --text-main: #eaeaf0;
+        --text-muted: #a1a1b5;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", sans-serif;
+      }
+
+      body {
+        background: radial-gradient(circle at top, #11162a, var(--bg-dark));
+        color: var(--text-main);
+        min-height: 100vh;
+        padding: 40px 20px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      header h1 {
+        font-size: 2.8rem;
+        background: linear-gradient(90deg, var(--primary), var(--secondary));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      header p {
+        color: var(--text-muted);
+        margin-top: 12px;
+        font-size: 1.05rem;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 25px;
+      }
+
+      .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border-glass);
+        border-radius: 16px;
+        padding: 22px;
+        backdrop-filter: blur(12px);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 0 35px rgba(0, 229, 255, 0.25);
+      }
+
+      .card h3 {
+        font-size: 1.15rem;
+        margin-bottom: 10px;
+      }
+
+      .card a {
+        display: inline-block;
+        margin-top: 10px;
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      .card a:hover {
+        text-decoration: underline;
+      }
+
+      .resource {
+        background: rgba(124, 77, 255, 0.12);
+        border-left: 3px solid var(--secondary);
+        padding: 12px;
+        margin-top: 15px;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        border-radius: 8px;
+        white-space: pre-wrap;
+      }
+
+      footer {
+        margin-top: 60px;
+        text-align: center;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+      }
+
+      footer span {
+        color: var(--primary);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Agentic AI – Lecture Hub</h1>
+        <p>
+          A structured and futuristic learning path for building intelligent AI
+          agents
+        </p>
+      </header>
+
+      <section class="grid">
+        <div class="card">
+          <h3>Lecture 1</h3>
+          <a href="https://youtu.be/wnbd_pKBa5s" target="_blank"
+            >Watch Lecture</a
+          >
+          <div class="resource">
+            Resource: Webhook Tester Tool https://dailytools.io/webhook-tester
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Lecture 2</h3>
+          <a href="https://youtu.be/zDXds2ohgT8" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 3</h3>
+          <a href="https://youtu.be/EUAqdMe7Dus" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 4</h3>
+          <a href="https://youtu.be/_sZS0PqfGK4" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 5</h3>
+          <a href="https://youtu.be/v-8F1G0g1WU" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 6</h3>
+          <a href="https://youtu.be/_xo_dl2LUNc" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+
+        <div class="card">
+          <h3>Lecture 7</h3>
+          <a href="https://youtu.be/F_jVBlAmuIo" target="_blank"
+            >Watch Lecture</a
+          >
+          <div class="resource">
+            SQL Vector Store Setup DROP EXTENSION IF EXISTS vector CASCADE;
+            CREATE EXTENSION vector; CREATE TABLE documents ( id bigserial
+            PRIMARY KEY, content text, metadata jsonb, embedding vector(3072) );
+            CREATE FUNCTION match_documents (...)
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Lecture 8</h3>
+          <a href="https://youtu.be/5P-UPgvoYlI" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 9</h3>
+          <a href="https://youtu.be/SMn5RWlOPHI" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 10</h3>
+          <a href="https://youtu.be/m8lSDiH3NV4" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 11</h3>
+          <a href="https://youtu.be/7lZIY_fbRfI" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 12</h3>
+          <a href="https://youtu.be/cavrhOD2qWU" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 13</h3>
+          <a href="https://youtu.be/o_SN8yyf8G8" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 14</h3>
+          <a href="https://youtu.be/F7XsyQm1OYc" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+
+        <div class="card">
+          <h3>Lecture 15</h3>
+          <p style="color: var(--text-muted)">
+            System User Recording (Not Available)
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Lecture 16</h3>
+          <a href="https://youtu.be/FB9Qc8fMd0U" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 17</h3>
+          <a href="https://youtu.be/g-qvuPfAY5E" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 18</h3>
+          <a href="https://youtu.be/fdHVE-C5SEM" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 19–20</h3>
+          <a href="https://youtu.be/F0CpO0mgyjU" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+
+        <div class="card">
+          <h3>Extra Resource</h3>
+          <div class="resource">
+            Create Your Own VPS (n8n Docker) docker run -d --name n8n -p
+            5678:5678 \ -e WEBHOOK_URL=&lt;Your_Domain_URL&gt; \ -e
+            N8N_DEFAULT_BINARY_DATA_MODE=filesystem \ -v
+            C:\\Docker\\n8n-data:/home/node/.n8n \ docker.n8n.io/n8nio/n8n
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Lecture 21</h3>
+          <a href="https://youtu.be/xESBvmHQjRs" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Project Explanation</h3>
+          <a href="https://youtu.be/GBB_crMasOs" target="_blank">Watch Video</a>
+        </div>
+        <div class="card">
+          <h3>Lecture 22</h3>
+          <a href="https://youtu.be/OSkgP4QgX-0" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 23</h3>
+          <a href="https://youtu.be/0-EpaL8NEM0" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 24</h3>
+          <a href="https://youtu.be/9K3ddHeqqJA" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+        <div class="card">
+          <h3>Lecture 25–26</h3>
+          <a href="https://youtu.be/sRuQds5G2Vw" target="_blank"
+            >Watch Lecture</a
+          >
+        </div>
+      </section>
+
+      <footer>
+        © 2025 <span>Agentic AI Course</span> · Designed for futuristic learning
+      </footer>
+    </div>
+  </body>
+</html>
